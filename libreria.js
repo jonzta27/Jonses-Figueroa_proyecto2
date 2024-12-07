@@ -24,4 +24,8 @@ const librosColeccion =[{
         }
     }
 
-    imprimirLibros(librosColeccion)
+    function agregarlibro(libros, nuevolibro){
+        libros.push(nuevolibro);
+    }
+
+    imprimirLibros(librosColeccion);
